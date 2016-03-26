@@ -1,0 +1,79 @@
+/*sidebar*/
+.pdsa-sn-wrapper {
+    position: absolute;
+    top: 3.6em;
+    left: 0em;
+    width: 182px;
+    height: 100%;
+    background-color: #1C1C1C;
+}
+.pdsa-sn-wrapper ul {
+    width: 182px;
+    list-style: none;
+    margin-top: 7px;
+    margin-right: 0!important;
+    padding: 0em 0em 0em 0em;
+}
+
+.pdsa-sn-wrapper ul .musicA {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 21px!important;
+}
+.pdsa-sn-wrapper ul .musicA>a {
+     margin-bottom: 8px!important;
+}
+.pdsa-sn-wrapper ul .musicA>a:hover {
+    color: #e2e2e2;
+    background-color: #1C1C1C!important;
+}
+.pdsa-sn-wrapper ul li {
+    box-sizing: border-box;
+    width: 182px;
+    height: 34px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.pdsa-sn-wrapper ul li:hover {
+    background: #121212;
+}
+.pdsa-sn-wrapper ul li a:hover{
+    color: #e2e2e2;
+    border-left-color: #121212;
+}
+.sidebar-glyphiconSize {
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-right: 18px;
+}
+.pdsa-sn-wrapper ul .musicA:hover{ 
+     background-color: #1C1C1C!important;
+}
+.pdsa-sn-wrapper ul li a {
+    color: #999999;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    width: 182px;
+    height: 34px;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #1C1C1C;
+}
+.pdsa-sn-wrapper ul li a> span {
+}
+.pdsa-sn-wrapper ul li a:active {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #121212;
+    overflow: hidden;
+    border-left-color: #121212;
+}

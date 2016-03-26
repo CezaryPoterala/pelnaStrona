@@ -1,0 +1,110 @@
+/*sidebar*/
+.pdsa-sn-wrapper {
+    position: absolute;
+    top: 3.6em;
+    left: 0em;
+    width: 13em;
+    height: 100%;
+    background-color: #1C1C1C;
+   
+}
+.pdsa-sn-wrapper ul {
+    width: 13em;
+    list-style: none;
+    margin-top: 2em;
+    margin-right: 0!important;
+    padding: 0em 0em 0em 0em;
+}
+.pdsa-sn-wrapper ul li {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.pdsa-sn-wrapper ul li a {
+    color: #999999;
+    text-decoration: none;
+    padding: 0.5em;
+}
+.pdsa-sn-wrapper ul li a span {
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left: 1em;
+    padding-top: -1em;
+    padding-bottom: -1em;
+}
+
+/*.pdsa-sn-wrapper ul li active:hover {
+    background-color: black;
+    border-left: 0.5em solid purple;
+    padding-left : -1em;
+}
+*/
+.pdsa-sn-wrapper ul li active
+.pdsa-sn-wrapper ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.pdsa-sn-wrapper ul li a:active, .pdsa-sn-wrapper ul li a:focus {
+    text-decoration: none;
+    outline: none;
+}
+.pdsa-sn-wrapper ul .pdsa-sn-brand {
+    margin-left: -0.5e;
+    font-size: large;
+    color: white;
+}
+.pdsa-sn-wrapper ul .pdsa-sn-brand a {
+    color: white;
+}
+.pdsa-sn-wrapper ul li ul {
+    list-style: none;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.body-content > #rightdd
+.body-content > #id {
+    margin-bottom:5px;
+    margin-left:-20px;
+    
+    width: 5px;!important
+}
+.body-content > i:hover {
+    
+}
+.tooltip {
+  margin-left: -5px;!important
+}
+#rightdd , #dd{
+    margin-bottom:5px;
+    margin-left:-15px;
+    color: #999999;!important
+    height: 20px;!important
+    width: 20px;!important
+}
+#rightdd:hover, #dd:hover {
+    color:darkslategray;
+}
+.pdsa-sn-wrapper ul li a i {
+    
+}
+
+@media all and (max-width: 768px) {
+    .pdsa-sn-wrapper {
+        left: -10em;
+    }
+    .pdsa-sn-wrapper ul li {
+         border-left: 0.1em solid purple;
+    }
+    .pdsa-sn-wrapper ul li a i {
+        padding-left: 11em;
+        margin-top: -1em;
+        margin-bottom: -1em;
+        padding-right: 1.7em;
+        border-left: 0.1em solid purple;
+    }
+
+    .body-content {
+        margin-left: 3em;
+    }
+}
+/*sidebar*/

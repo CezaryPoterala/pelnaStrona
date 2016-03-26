@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+}
+.body-content {
+    margin-left: 14em;
+    margin-top: 0.5em;
+    width: 85%;
+    
+}
+header {
+    padding: 0.7em;
+    background-color: gray;
+    color: white;
+    font-size: large;
+}
+header a { 
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: none;
+    color: #e2e2e2;
+}
+hr {
+   padding-bottom: 10px;
+   border-color: #323232;  
+}
+.body-content #rightArrow, 
+.body-content #leftArrow {
+    color: #c9c9c9;
+    width:20px; 
+    height:20px; 
+    margin-left:-15px;
+    cursor: pointer;
+}
+.body-content #leftArrow:hover, 
+.body-content #rightArrow:hover {
+    color: #999999;
+}

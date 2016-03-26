@@ -1,0 +1,75 @@
+.pdsa-readme-box-primary {
+    border-color: #428bca;
+}
+.pdsa-readme-box-primary .readme-header {
+    background-color: #31708f;
+}
+.pdsa-readme-box-primary .readme-footer a {
+    color: white;
+}
+.pdsa-readme-box-success {
+    border-color: #428bca;
+}
+.pdsa-readme-box-success .readme-header {
+    background-color: #31708f;
+}
+.pdsa-readme-box-success .readme-footer a {
+    color: white;
+}
+.pdsa-readme-box-info {
+    border-color: #31708f;
+}
+.pdsa-readme-box-info .readme-header {
+    background-color: #31708f;
+}
+.pdsa-readme-box-info .readme-footer a {
+    color: red;
+}
+/* */
+.pdsa-readme-box {
+    position: relative;
+    border-width: thin;
+    border-style: solid;
+    border-color: #31708f;
+    width: 100%;
+    padding: 7px;
+    opacity: 0.9;
+    margin: 2px;
+    min-height: 105px;
+}
+.pdsa-readme-box:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.pdsa-readme-box .readme-header {
+    margin: -7px;
+    padding: 3.5px;
+    text-align: center;
+}
+.pdsa-readme-box .readme-header i,
+.pdsa-readme-box .readme-header div {
+    font-size: xx-large;
+}
+.pdsa-readme-box .readme-body{
+    position: relative;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.pdsa-readme-box .readme-box h1 {
+    font-size: x-large;
+}
+.pdsa-readme-box .readme-box p {
+    font-size: medium;
+}
+.pdsa-readme-box .readme-footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3.5px;
+    font-size: small;
+}
+.pdsa-readme-box .readme-footer a {
+    text-decoration: none;
+}

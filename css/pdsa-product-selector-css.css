@@ -1,0 +1,40 @@
+.pdsa-readme-box{
+    min-height: 24em;
+}
+.checkbox .btn,
+.checkbox-inline .btn {
+    padding-left: 2em;
+    min-width: 7em;
+}
+checkbox-inline {
+    margin-left: -1.5em;
+}
+.checkbox label,
+.checkbox-inline label {
+    text-align: left;
+}
+.title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.desc {
+    display: block;
+    font-size: 1.25em;
+}
+.price {
+    font-size: 1.25em;
+}
+.panel-body {
+    min-height: 7em;
+}
+.btn-group .btn-span,
+.btn-group .btn input[type='checkbox'] {
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+}
+.total-area {
+    margin-top: 2em;
+    font-weight: bold;
+    text-align: right;
+}
